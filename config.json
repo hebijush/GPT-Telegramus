@@ -23,7 +23,7 @@
         "api_key": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik1UaEVOVUpHTkVNMVFURTRNMEZCTWpkQ05UZzVNRFUxUlRVd1FVSkRNRU13UmtGRVFrRXpSZyJ9.eyJodHRwczovL2FwaS5vcGVuYWkuY29tL3Byb2ZpbGUiOnsiZW1haWwiOiIwMDltci5qYW1lc0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZX0sImh0dHBzOi8vYXBpLm9wZW5haS5jb20vYXV0aCI6eyJwb2lkIjoib3JnLXNnVlRaRGQwMms2eWdod1JDcjVVSVpDMyIsInVzZXJfaWQiOiJ1c2VyLTdEWXJXUXBNN2RqWlE2aFd6SnB2Qk5OYSJ9LCJpc3MiOiJodHRwczovL2F1dGgwLm9wZW5haS5jb20vIiwic3ViIjoiYXV0aDB8NjU4NDBmZWE1MDI3MWFmYjYwZjExM2E0IiwiYXVkIjpbImh0dHBzOi8vYXBpLm9wZW5haS5jb20vdjEiLCJodHRwczovL29wZW5haS5vcGVuYWkuYXV0aDBhcHAuY29tL3VzZXJpbmZvIl0sImlhdCI6MTcwNDk4NTA4MSwiZXhwIjoxNzA1ODQ5MDgxLCJhenAiOiJUZEpJY2JlMTZXb1RIdE45NW55eXdoNUU0eU9vNkl0RyIsInNjb3BlIjoib3BlbmlkIGVtYWlsIHByb2ZpbGUgbW9kZWwucmVhZCBtb2RlbC5yZXF1ZXN0IG9yZ2FuaXphdGlvbi5yZWFkIG9yZ2FuaXphdGlvbi53cml0ZSBvZmZsaW5lX2FjY2VzcyJ9.u8qftVdROZbwg5TR2kgydyp3MAQ_vceNN2JB1KEgl244BX3lDUc6LBNfL7LQbF6o7pmgFN5MXMIZFmUF2F-LRoOnWWeDdIRSW_B0TNc-rNeyFDU6OiM8OOsviuOYg7FyF0xu8rNFS6VYqZAl9qD2QaZGUUS1QQSYJXcAx7Kra0SPo-lu4gpfX3VVFm_IHTxamDtsYBcbeFEzeqgtFAprbjBcdcKPttRdk_V6rJ3gUsGoe5C4gIwmm3mirQs40KSWDafNhDh3lJUKCmiv3-vUgxYrfFDUW4xhR9ysNaKeTknnk9W6sTKNEGtuvDeZM7wkUAER_uRKlVZ0268u3ue20g",
 
         "__comment05__": "MODEL NAME FOR API TYPE 3 (default: gpt-3.5-turbo)",
-        "engine": "",
+        "engine": "gpt-3.5-turbo-1106",
 
         "__comment06__": "FOR API TYPE 1 ACCESS TOKEN IS RECOMMENDED. GET IT FROM https://chat.openai.com/api/auth/session",
         "__comment07__": "OR SESSION_TOKEN (FROM COOKIES ON chat.openai.com AS __Secure-next-auth.session-token",
@@ -70,7 +70,7 @@
         "wss_link": "",
 
         "__comment07__": "DEFAULT CONVERSATION STYLE (0 - PRECISE, 1 - BALANCED, 3 - CREATIVE)",
-        "conversation_style_type_default": 1,
+        "conversation_style_type_default": 3,
 
         "__comment08__": "IF NEEDED, SPECIFY PROXY IN THE http://IP:PORT FORMAT (SPECIFY HTTP EVEN IF IT IS HTTPS PROXY)",
         "__comment09__": "OR SET TO auto AND ENABLE proxy_automation TO AUTOMATICALLY SEARCH WORKING PROXIES",
